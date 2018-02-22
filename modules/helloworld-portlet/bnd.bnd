@@ -1,0 +1,8 @@
+Bundle-Name=HelloWorldPortlet
+Bundle-SymbolicName=com.jkaref.examples.liferay.helloworld.portlet
+Bundle-Version=1.0.1
+Export-Package=com.jkaref.examples.liferay.portlets.constants,\
+  com.jkaref.examples.liferay.portlets.hellworld
+Import-Package=\
+  com.jkaref.examples.liferay.helloworld.api,\
+  javax.portlet

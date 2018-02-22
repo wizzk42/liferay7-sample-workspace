@@ -1,0 +1,6 @@
+Bundle-Name: helloworld-impl
+Bundle-SymbolicName: com.jkaref.examples.liferay.helloworld.impl
+Bundle-Version: 1.0.2
+Bundle-Description: Hello World Service Implementation 
+Import-Package: com.jkaref.examples.liferay.helloworld.api
+Export-Package: com.jkaref.examples.liferay.helloworld.impl

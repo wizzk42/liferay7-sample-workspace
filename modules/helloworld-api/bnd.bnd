@@ -1,0 +1,9 @@
+#
+# Copyright (c) [j]karef GmbH year .
+#
+
+Bundle-Name: helloworld-api
+Bundle-SymbolicName: com.jkaref.examples.liferay.helloworld.api
+Bundle-Version: 1.0.2
+Bundle-Description: Hello World Service API
+Export-Package: com.jkaref.examples.liferay.helloworld.api

@@ -1,0 +1,8 @@
+Bundle-Name:arquillian-sample-portlet
+Bundle-SymbolicName:com.liferay.arquillian.sample
+Bundle-Version:1.0.0
+Export-Package:com.liferay.arquillian.sample.constants
+Import-Package:\
+    com.liferay.portal.kernel.test.util,\
+    *
+-includeresources:META-INF/jsps=src/resources/META-INF/jsps
