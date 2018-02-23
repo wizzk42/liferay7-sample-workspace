@@ -2,11 +2,11 @@
  * Copyright (c) [j]karef GmbH year .
  */
 
-package com.jkaref.examples.liferay.portlets.helloworld;
+package com.jkaref.opensource.liferay.portlets.helloworld;
 
-import com.jkaref.examples.liferay.helloworld.api.EchoService;
-import com.jkaref.examples.liferay.portlets.constants.HelloWorldPortletConstants;
-import com.jkaref.examples.liferay.helloworld.api.HelloWorldService;
+import com.jkaref.opensource.liferay.helloworld.contract.EchoService;
+import com.jkaref.opensource.liferay.helloworld.contract.HelloWorldService;
+import com.jkaref.opensource.liferay.portlets.constants.HelloWorldPortletConstants;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
 
@@ -20,10 +20,10 @@ import java.io.PrintWriter;
 @Component(
 	immediate = true,
 	property = {
-		"com.liferay.portlet.display-category=Test",
+		"com.liferay.portlet.display-category=category.sample",
 		"com.liferay.portlet.instanceable=true",
-		"javax.portlet.display-name=HelloWorldPortlet",
-		"javax.portlet.name=" + HelloWorldPortletConstants.HELLO_WORLD_PORTLET,
+		"javax.portlet.display-name=hello-world-portlet Portlet",
+		"javax.portlet.name=" + HelloWorldPortletConstants.HelloWorldPortlet,
 		"javax.portlet.security-role-ref=power-user,user"
 	},
 	service = Portlet.class

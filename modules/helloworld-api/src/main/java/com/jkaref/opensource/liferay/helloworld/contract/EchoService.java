@@ -2,7 +2,7 @@
  * Copyright (c) [j]karef GmbH year .
  */
 
-package com.jkaref.examples.liferay.helloworld.api;
+package com.jkaref.opensource.liferay.helloworld.contract;
 
 /**
  * @author Matthias Muenzner <matthias.muenzner@jkaref.com>
