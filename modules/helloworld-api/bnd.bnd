@@ -1,5 +1,5 @@
 Bundle-Name: helloworld-api
-Bundle-SymbolicName: com.jkaref.opensource.liferay.helloworld.contract
+Bundle-SymbolicName: com.jkaref.opensource.liferay.helloworld.api
 Bundle-Version: 1.0.2
 Bundle-Description: Hello World Service API
-Export-Package=com.jkaref.opensource.liferay.helloworld.contract
+Export-Package: com.jkaref.opensource.liferay.helloworld.api

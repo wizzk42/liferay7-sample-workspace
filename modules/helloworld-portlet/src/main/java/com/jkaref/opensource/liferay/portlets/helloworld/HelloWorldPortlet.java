@@ -4,8 +4,8 @@
 
 package com.jkaref.opensource.liferay.portlets.helloworld;
 
-import com.jkaref.opensource.liferay.helloworld.contract.EchoService;
-import com.jkaref.opensource.liferay.helloworld.contract.HelloWorldService;
+import com.jkaref.opensource.liferay.helloworld.api.EchoService;
+import com.jkaref.opensource.liferay.helloworld.api.HelloWorldService;
 import com.jkaref.opensource.liferay.portlets.constants.HelloWorldPortletConstants;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
@@ -22,7 +22,7 @@ import java.io.PrintWriter;
 	property = {
 		"com.liferay.portlet.display-category=category.sample",
 		"com.liferay.portlet.instanceable=true",
-		"javax.portlet.display-name=hello-world-portlet Portlet",
+		"javax.portlet.display-name=hello-world-portlet",
 		"javax.portlet.name=" + HelloWorldPortletConstants.HelloWorldPortlet,
 		"javax.portlet.security-role-ref=power-user,user"
 	},

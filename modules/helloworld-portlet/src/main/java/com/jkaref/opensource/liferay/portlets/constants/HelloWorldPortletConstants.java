@@ -9,6 +9,6 @@ package com.jkaref.opensource.liferay.portlets.constants;
  */
 public class HelloWorldPortletConstants {
 
-	public static final String HelloWorldPortlet = "HelloWorld";
+	public static final String HelloWorldPortlet = "hello-world-portlet";
 
 }

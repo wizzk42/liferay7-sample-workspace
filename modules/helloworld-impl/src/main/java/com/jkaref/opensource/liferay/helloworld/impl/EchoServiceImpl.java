@@ -4,7 +4,7 @@
 
 package com.jkaref.opensource.liferay.helloworld.impl;
 
-import com.jkaref.opensource.liferay.helloworld.contract.EchoService;
+import com.jkaref.opensource.liferay.helloworld.api.EchoService;
 import org.osgi.service.component.annotations.Component;
 
 /**

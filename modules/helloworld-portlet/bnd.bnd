@@ -1,6 +1,6 @@
 Bundle-Name: hello-world
 Bundle-SymbolicName: com.jkaref.examples.liferay.portlets.helloworld
 Bundle-Version: 1.0.1
-Export-Package: com.jkaref..contracts.liferay.portlets.constants
-Import-Package= com.jkaref..contracts.liferay.helloworld.contract,\
+Export-Package: com.jkaref.opensource.liferay.portlets.constants
+Import-Package: com.jkaref.opensource.liferay.helloworld.api,\
   javax.portlet

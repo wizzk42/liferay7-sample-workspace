@@ -4,7 +4,7 @@
 
 package com.jkaref.opensource.liferay.helloworld.impl;
 
-import com.jkaref.opensource.liferay.helloworld.contract.HelloWorldService;
+import com.jkaref.opensource.liferay.helloworld.api.HelloWorldService;
 import org.osgi.service.component.annotations.Component;
 
 /**
@@ -18,7 +18,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
     @Override
     public String sayHello() {
-        return "Hello Shit";
+        return "Hello";
     }
 
 }
